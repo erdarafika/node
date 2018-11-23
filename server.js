@@ -5,7 +5,6 @@ const bodyParser = require('body-parser')
 const app = express()
 const router = require('./router')
 const async = require('async')
-const config = require('./config/main')
 const SHA256 = require('crypto-js/sha256')
 const uuidv1 = require('uuid/v1')
 const port = 4000
